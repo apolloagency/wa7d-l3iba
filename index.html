@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Two Buttons Example</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link your CSS file -->
+</head>
+<body>
+    <div class="container-form">
+        <div class="txt">
+            <h1>Haak jerab wa7d l3iba</h1>
+        </div>
+        <form id="myForm">
+            <label for="name">smiytk:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">email dyalk:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <button id="soundButton" type="reset">sifet</button>
+            <button id="moveButton" style="display: none;">jerab wa7d l3iba khra</button>
+        </form>
+    </div>
+
+    <!-- Audio element -->
+    <audio id="clickSound">
+        <source src="click-sound.mp3" type="audio/mpeg"> <!-- Replace with your audio file -->
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script> <!-- Link your JavaScript file -->
+</body>
+</html>
